@@ -1,0 +1,16 @@
+import random
+
+def select_random_name_using_randint():
+    names = ['leonard', 'penny', 'sheldon', 'howard', 'amy', 'bernadatte', 'raj']
+    i = random.randint(0, len(names)-1)
+    print('Bill will be paid by {}'.format(names[i]))
+
+select_random_name_using_randint()
+
+
+def select_random_name_using_choice():
+    names = ['leonard', 'penny', 'sheldon', 'howard', 'amy', 'bernadatte', 'raj']
+    name = random.choice(names)
+    print(f'Bill will be paid by {name}')
+
+select_random_name_using_choice()
